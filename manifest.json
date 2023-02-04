@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "kdrama link grabber",
+  "description": "Chrome extension for a CERTAIN WEBSITE to grab the download link",
+  "version": "1.0",
+  "permissions": ["contextMenus"],
+  "icons": {
+    "16": "arrow.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
